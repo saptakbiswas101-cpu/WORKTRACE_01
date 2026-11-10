@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+:root {
+  --bg-primary: #090909;
+  --bg-secondary: #111111;
+  --bg-card: #161616;
+  --bg-elevated: #1F1F1F;
+  --border-color: #262626;
+  --border-subtle: #1C1C1C;
+  --accent-orange: #FF6B00;
+  --accent-orange-hover: #FF8126;
+  --accent-orange-subtle: #261407;
+  --text-primary: #F5F5F5;
+  --text-secondary: #A1A1A1;
+  --text-muted: #686868;
+}
+
+body {
+  background-color: #090909;
+  color: #F5F5F5;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Space Grotesk for Headings, Titles, and Large Statistics */
+h1, h2, h3, h4, h5, h6,
+.font-display,
+.font-heading,
+.font-metric,
+.stat-number {
+  font-family: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0D0D0D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6B00;
+}
+
+/* Custom Selection in Orange */
+::selection {
+  background: rgba(255, 107, 0, 0.35);
+  color: #FFFFFF;
+}
+
+/* Subtle Technical Grid Background */
+.tech-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
+.tech-dots {
+  background-image: radial-gradient(rgba(255, 107, 0, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

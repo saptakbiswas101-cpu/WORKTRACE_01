@@ -1,0 +1,1918 @@
+{
+  "departments": [
+    {
+      "id": "dept-1",
+      "name": "Warehouse & Inventory",
+      "code": "WH-INV",
+      "headName": "Vikram Malhotra",
+      "employeeCount": 4,
+      "description": "Central warehousing, stock audits, FIFO rotation, pallet handling, and cold-storage operations."
+    },
+    {
+      "id": "dept-2",
+      "name": "Logistics & Delivery",
+      "code": "LOG-DEL",
+      "headName": "Vikram Malhotra",
+      "employeeCount": 3,
+      "description": "Fleet dispatch, multi-city route optimization, 3PL carrier coordination, and cold-chain monitoring."
+    },
+    {
+      "id": "dept-3",
+      "name": "Sales & Customer Relations",
+      "code": "SALES-CR",
+      "headName": "Rohan Mehta",
+      "employeeCount": 3,
+      "description": "Modern trade retail partnerships, key distributor accounts, credit terms, and complaint resolution."
+    },
+    {
+      "id": "dept-4",
+      "name": "Strategy & Operations",
+      "code": "STRAT-OPS",
+      "headName": "Ananya Sen",
+      "employeeCount": 2,
+      "description": "Supply chain network design, supplier vendor compliance, ERP process re-engineering, and governance."
+    }
+  ],
+  "employees": [
+    {
+      "id": "emp-101",
+      "employeeCode": "EMP-101",
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma@abc-consumer.synthetic",
+      "designation": "Lead Warehouse & Inventory Specialist",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "managerId": "emp-105",
+      "managerName": "Vikram Malhotra",
+      "joiningDate": "2023-03-15",
+      "exitDate": "2026-11-28",
+      "employmentStatus": "On Notice",
+      "contactNumber": "+91 98201 44521",
+      "location": "Bhiwandi Central Fulfillment Hub, MH",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "role": "employee",
+      "assignedResponsibilities": [
+        "Managing Bhiwandi Hub primary pallet allocation (Bays 1 to 14)",
+        "Daily physical-to-ERP cycle counts for perishable Almond Beverage SKUs",
+        "Handling supplier return merchandise authorisations (RMA) with Apex PolyPrint",
+        "Supervising weekly refrigeration logs in Cold Storage Unit C"
+      ],
+      "currentSuccessorId": "emp-103",
+      "handoverId": "ho-101"
+    },
+    {
+      "id": "emp-102",
+      "employeeCode": "EMP-102",
+      "name": "Amit Verma",
+      "email": "amit.verma@abc-consumer.synthetic",
+      "designation": "Senior Fleet & Route Logistics Lead",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "managerId": "emp-105",
+      "managerName": "Vikram Malhotra",
+      "joiningDate": "2022-07-01",
+      "exitDate": "2026-10-31",
+      "employmentStatus": "Exited",
+      "contactNumber": "+91 98722 19044",
+      "location": "Western Express Logistics Center, Navi Mumbai",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "role": "employee",
+      "assignedResponsibilities": [
+        "Inter-state freight rate negotiations with 3PL carriers (Gati, BlueDart Surface)",
+        "Toll tag replenishment and fast-tag telematics auditing across 18 heavy trucks",
+        "Emergency route re-routing during Western Ghats monsoon blockades",
+        "Driver overtime compliance and transit time SLA enforcement"
+      ],
+      "currentSuccessorId": "emp-104",
+      "handoverId": "ho-102"
+    },
+    {
+      "id": "emp-103",
+      "employeeCode": "EMP-103",
+      "name": "Neha Patel",
+      "email": "neha.patel@abc-consumer.synthetic",
+      "designation": "Inventory Operations Associate (Successor)",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "managerId": "emp-105",
+      "managerName": "Vikram Malhotra",
+      "joiningDate": "2025-01-10",
+      "employmentStatus": "Active",
+      "contactNumber": "+91 97654 32189",
+      "location": "Bhiwandi Central Fulfillment Hub, MH",
+      "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "role": "employee",
+      "assignedResponsibilities": [
+        "Secondary racking bin location maintenance",
+        "Daily inbound gate check-in and barcode verification",
+        "Assigned successor taking over Rahul Sharma's inventory responsibilities"
+      ]
+    },
+    {
+      "id": "emp-104",
+      "employeeCode": "EMP-104",
+      "name": "Devanshi Joshi",
+      "email": "devanshi.joshi@abc-consumer.synthetic",
+      "designation": "Logistics Operations Executive (Successor)",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "managerId": "emp-105",
+      "managerName": "Vikram Malhotra",
+      "joiningDate": "2025-04-12",
+      "employmentStatus": "Active",
+      "contactNumber": "+91 99300 81233",
+      "location": "Western Express Logistics Center, Navi Mumbai",
+      "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "role": "employee",
+      "assignedResponsibilities": [
+        "Daily dispatch manifests and e-way bill generation",
+        "Driver GPS check-ins and customer delivery confirmations",
+        "Successor to Amit Verma on fleet logistics and carrier SLAs"
+      ]
+    },
+    {
+      "id": "emp-105",
+      "employeeCode": "EMP-105",
+      "name": "Vikram Malhotra",
+      "email": "vikram.malhotra@abc-consumer.synthetic",
+      "designation": "Head of Operations & Supply Chain (Manager)",
+      "departmentId": "dept-4",
+      "departmentName": "Strategy & Operations",
+      "managerId": "emp-106",
+      "managerName": "Ananya Sen",
+      "joiningDate": "2021-02-01",
+      "employmentStatus": "Active",
+      "contactNumber": "+91 98110 56789",
+      "location": "Corporate HQ, Bandra Kurla Complex, Mumbai",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "role": "manager",
+      "assignedResponsibilities": [
+        "End-to-end supply chain operational continuity & cost budgets",
+        "Managerial oversight of Warehouse and Logistics teams",
+        "Approving employee handover reports and assigning successors",
+        "Vendor contract sign-offs for packaging & logistics"
+      ]
+    },
+    {
+      "id": "emp-106",
+      "employeeCode": "EMP-106",
+      "name": "Ananya Sen",
+      "email": "ananya.sen@abc-consumer.synthetic",
+      "designation": "VP of People & Systems Governance (Administrator)",
+      "departmentId": "dept-4",
+      "departmentName": "Strategy & Operations",
+      "managerId": "emp-106",
+      "managerName": "Self (Executive Board)",
+      "joiningDate": "2020-08-15",
+      "employmentStatus": "Active",
+      "contactNumber": "+91 98200 11223",
+      "location": "Corporate HQ, Bandra Kurla Complex, Mumbai",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "role": "admin",
+      "assignedResponsibilities": [
+        "Knowledge retention governance and organizational policy enforcement",
+        "System administration, role permission matrix, and audit inspection",
+        "Notice period transition tracking and executive talent succession"
+      ]
+    },
+    {
+      "id": "emp-107",
+      "employeeCode": "EMP-107",
+      "name": "Rohan Mehta",
+      "email": "rohan.mehta@abc-consumer.synthetic",
+      "designation": "Key Accounts Sales Manager (Modern Trade)",
+      "departmentId": "dept-3",
+      "departmentName": "Sales & Customer Relations",
+      "managerId": "emp-105",
+      "managerName": "Vikram Malhotra",
+      "joiningDate": "2022-11-20",
+      "employmentStatus": "Active",
+      "contactNumber": "+91 98331 45099",
+      "location": "Regional Sales Hub, Lower Parel, Mumbai",
+      "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+      "role": "employee",
+      "assignedResponsibilities": [
+        "National Modern Trade accounts (Reliance Retail, DMart, Spencers)",
+        "Resolving carton crush deductions and commercial credit notes",
+        "Monthly secondary sales projection alignment with warehouse supply"
+      ]
+    },
+    {
+      "id": "emp-108",
+      "employeeCode": "EMP-108",
+      "name": "Sunita Rao",
+      "email": "sunita.rao@abc-consumer.synthetic",
+      "designation": "Customer Care & Distributor Relations Lead",
+      "departmentId": "dept-3",
+      "departmentName": "Sales & Customer Relations",
+      "managerId": "emp-107",
+      "managerName": "Rohan Mehta",
+      "joiningDate": "2023-08-01",
+      "employmentStatus": "Active",
+      "contactNumber": "+91 98450 78210",
+      "location": "Regional Sales Hub, Lower Parel, Mumbai",
+      "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "role": "employee",
+      "assignedResponsibilities": [
+        "Distributor ticket turnaround SLA (less than 4 hours for damaged lot claims)",
+        "Customer escalation logging in CRM and replacement batch dispatches",
+        "Distributor credit dispute settlement protocols"
+      ]
+    },
+    {
+      "id": "emp-109",
+      "employeeCode": "EMP-109",
+      "name": "Rajesh Kulkarni",
+      "email": "rajesh.kulkarni@abc-consumer.synthetic",
+      "designation": "Warehouse Quality & Cold-Chain Inspector",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "managerId": "emp-101",
+      "managerName": "Rahul Sharma",
+      "joiningDate": "2023-10-05",
+      "employmentStatus": "Active",
+      "contactNumber": "+91 98670 99411",
+      "location": "Bhiwandi Central Fulfillment Hub, MH",
+      "avatarUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80",
+      "role": "employee",
+      "assignedResponsibilities": [
+        "Hourly temperature telemetry in Cold Storage Unit C (maintained at 4°C ± 1°C)",
+        "Lot sampling for beverage seal leakage prior to truck staging",
+        "Quarantine bin management for damaged primary packaging"
+      ]
+    },
+    {
+      "id": "emp-110",
+      "employeeCode": "EMP-110",
+      "name": "Tanya Kapoor",
+      "email": "tanya.kapoor@abc-consumer.synthetic",
+      "designation": "Operations Strategy & Procurement Analyst",
+      "departmentId": "dept-4",
+      "departmentName": "Strategy & Operations",
+      "managerId": "emp-105",
+      "managerName": "Vikram Malhotra",
+      "joiningDate": "2024-03-01",
+      "employmentStatus": "Active",
+      "contactNumber": "+91 98199 66321",
+      "location": "Corporate HQ, Bandra Kurla Complex, Mumbai",
+      "avatarUrl": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=150&auto=format&fit=crop&q=80",
+      "role": "employee",
+      "assignedResponsibilities": [
+        "Vendor scorecard reviews for corrugated box manufacturers",
+        "Cost-per-pallet route benchmarking across tier-1 logistics partners",
+        "Preparation of weekly stockout risk forecast models"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-001",
+      "employeeId": "emp-101",
+      "employeeName": "Rahul Sharma",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-09",
+      "category": "Problem Resolution",
+      "title": "Cold Storage Unit C Temperature Spike Incident",
+      "workCompleted": "Conducted physical audit of Cold Storage Unit C at 08:30 AM. Found thermostat controller sensor wire loosened by forklift vibration near Bay 7. Re-anchored sensor with insulated cable bracket.",
+      "decisionsMade": "Decided to quarantine 120 cartons of Almond Beverage (Batch #ALM-992) for 4 hours until Quality Lead Rajesh completed microbiological culture testing.",
+      "problemsEncountered": "Temperature had drifted to 8.2°C for approximately 55 minutes, exceeding the 4.0°C threshold.",
+      "actionsTaken": "Logged cold-chain deviation in SOP-WH-04 logbook. Directed technician Manoj to install secondary digital data logger as fail-safe.",
+      "pendingTasks": "Receive sign-off from Rajesh Kulkarni before clearing Batch #ALM-992 for outward dispatch tomorrow morning.",
+      "peopleInvolved": [
+        "Rajesh Kulkarni (Quality)",
+        "Vikram Malhotra (Ops Head)",
+        "Manoj (Maintenance)"
+      ],
+      "observationsLessons": "Cold storage door curtain flaps need replacement every 90 days; air curtain velocity was weakened by torn vinyl strips.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-002",
+      "employeeId": "emp-101",
+      "employeeName": "Rahul Sharma",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-08",
+      "category": "Daily Operations",
+      "title": "Weekly Cycle Count - Perishable Nut Milk SKUs",
+      "workCompleted": "Completed physical verification of 1,450 cartons of 500ml and 1L Almond/Cashew beverages across Bays 3, 4 and 5.",
+      "decisionsMade": "Prioritized FIFO dispatch for 140 cartons of batch expiring on Dec 15; stickered pallets with fluorescent green tags.",
+      "problemsEncountered": "Discrepancy of 18 cartons in Bay 4: Physical count was 412 cartons while ERP showed 430 cartons.",
+      "actionsTaken": "Cross-referenced CCTV footage of yesterday's night loading dock. Identified that 18 cartons were loaded onto truck MH-04-GP-1200 without scanner confirmation due to dead battery in handheld scanner #3.",
+      "pendingTasks": "Coordinate with logistics coordinator Amit Verma's team to reconcile delivery challan with DMart Thane receiver stamp.",
+      "peopleInvolved": [
+        "Amit Verma (Logistics)",
+        "Devanshi Joshi (Logistics)"
+      ],
+      "observationsLessons": "Handheld scanners must be left in the multi-dock charging cradle overnight; night shift supervisor must enforce docking checklist.",
+      "status": "In Progress",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-003",
+      "employeeId": "emp-101",
+      "employeeName": "Rahul Sharma",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-07",
+      "category": "Decision Making",
+      "title": "Packaging Supplier RMA Rejection - Apex PolyPrint",
+      "workCompleted": "Inspected incoming shipment of 5,000 corrugated outer cartons from vendor Apex PolyPrint (PO #PO-99120).",
+      "decisionsMade": "Rejected the entire consignment after 4 out of 10 sample cartons failed Edge Crush Test (ECT < 32 lbs/in). Refused gate entry.",
+      "problemsEncountered": "Apex PolyPrint sales rep claimed their internal test report passed, threatening to delay tomorrow's retail packaging line.",
+      "actionsTaken": "Issued official Defect Rejection Certificate countersigned by Vikram Malhotra. Enclosed calibrated micrometer and bursting strength gauge readings.",
+      "pendingTasks": "Source 2,000 emergency buffer cartons from secondary backup vendor 'PackWell Solutions' at 8% premium rate.",
+      "peopleInvolved": [
+        "Vikram Malhotra (Ops Head)",
+        "Tanya Kapoor (Procurement)",
+        "Suresh (Apex PolyPrint)"
+      ],
+      "observationsLessons": "Single-sourcing corrugated cartons carries operational shutdown risk during peak Diwali/Q3 demand. Dual-vendor split (70/30) is urgently needed.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Verified by manager"
+    },
+    {
+      "id": "act-004",
+      "employeeId": "emp-101",
+      "employeeName": "Rahul Sharma",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-06",
+      "category": "Pending Tasks",
+      "title": "Warehouse Slotting Optimization for High-Velocity Festive SKUs",
+      "workCompleted": "Drafted revised floor layout blueprint shifting high-turnover Almond 500ml SKUs 40 meters closer to primary loading Dock #2.",
+      "decisionsMade": "Proposed moving slow-moving Hazelnut spreads to mezzanine racking to reduce forklift transit travel time by 18 minutes per dispatch.",
+      "problemsEncountered": "Mezzanine load-bearing certificate needs structural recertification by municipal engineer before loading heavy glass jar pallets.",
+      "actionsTaken": "Contacted facility engineering vendor for structural load survey scheduled for Nov 14.",
+      "pendingTasks": "Handover physical floor blueprint with color-coded weight limits to successor Neha Patel before departure.",
+      "peopleInvolved": [
+        "Neha Patel (Successor)",
+        "Vikram Malhotra (Ops Head)"
+      ],
+      "observationsLessons": "Never stack glass jar pallets higher than two tiers in mezzanine without side-safety containment mesh.",
+      "status": "In Progress",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-005",
+      "employeeId": "emp-101",
+      "employeeName": "Rahul Sharma",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-05",
+      "category": "Customer Interaction",
+      "title": "Reliance Retail Return Claim Audit",
+      "workCompleted": "Joint inspection with Reliance Retail modern trade auditor regarding return of 88 cartons of crushed packaging.",
+      "decisionsMade": "Accepted 42 cartons as transit damage attributable to 3PL transporter rough transit, rejected 46 cartons due to expired date caused by store overstocking.",
+      "problemsEncountered": "Reliance representative demanded 100% debit note waiver citing distributor agreement clause 14B.",
+      "actionsTaken": "Presented time-stamped dispatch photographs proving intact outer shrink-wrap upon warehouse exit. Escalated commercial negotiation to Rohan Mehta.",
+      "pendingTasks": "Rohan Mehta to execute final debit note adjustment of ₹34,200 instead of ₹82,000 demanded by retailer.",
+      "peopleInvolved": [
+        "Rohan Mehta (Key Accounts)",
+        "Sunita Rao (Distributor Relations)"
+      ],
+      "observationsLessons": "Always photograph every loaded pallet with visible batch label and security seal tag before closing truck roll-up doors.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-006",
+      "employeeId": "emp-101",
+      "employeeName": "Rahul Sharma",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-04",
+      "category": "Problem Resolution",
+      "title": "Discrepancy in Pallet Shrinkage Reconciliation",
+      "workCompleted": "Investigated recurring discrepancy between ERP inventory ledger and physical stock for High-Value Pistachio butter cases.",
+      "decisionsMade": "Locked high-value nut butter stock in Caged Security Enclosure 'Vault-B' with dual-key access authorization.",
+      "problemsEncountered": "ERP ledger showed 15 cases more than physical bin. Barcode scanner audit showed manual override was executed on Oct 28 without supervisor PIN.",
+      "actionsTaken": "Revoked generic warehouse operator PINs on ERP terminal #4. Mandated biometric or individual badge login.",
+      "pendingTasks": "Audit all manual ledger overrides done between Oct 15 and Nov 01 with IT team.",
+      "peopleInvolved": [
+        "Ananya Sen (Admin)",
+        "Vikram Malhotra (Ops Head)"
+      ],
+      "observationsLessons": "Terminal auto-logout timer was previously set to 30 minutes, allowing unauthorized personnel to enter corrections on open screens.",
+      "status": "In Progress",
+      "permissionLevel": "Management Confidential",
+      "evidenceClassification": "Conflicting"
+    },
+    {
+      "id": "act-007",
+      "employeeId": "emp-101",
+      "employeeName": "Rahul Sharma",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-03",
+      "category": "Planning and Strategy",
+      "title": "Handover Preparation: Primary Vendor & Key Contact Master Sheet",
+      "workCompleted": "Compiled master list of 14 critical warehouse suppliers, emergency refrigeration technicians, pallet repair contractors, and fumigation service providers.",
+      "decisionsMade": "Highlighted unwritten SLA details: Refrigeration technician Sharmaji (Cell: 98200-XXXXX) requires cash emergency advance of ₹2,000 for Sunday night breakdowns; otherwise responds only on Monday.",
+      "problemsEncountered": "Formal purchase agreement with cold-chain repair vendor has lapsed and is running on monthly informal extensions.",
+      "actionsTaken": "Flagged the contract lapse to Vikram Malhotra and Ananya Sen for urgent contract renewal.",
+      "pendingTasks": "Walk Neha Patel through physical keys, alarm code protocols, and emergency chiller shut-off valves on Nov 12.",
+      "peopleInvolved": [
+        "Neha Patel (Successor)",
+        "Vikram Malhotra (Ops Head)"
+      ],
+      "observationsLessons": "Informal operational relationships keep the warehouse running during crises, but must be formalized into documented vendor contracts.",
+      "status": "In Progress",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Verified by manager"
+    },
+    {
+      "id": "act-008",
+      "employeeId": "emp-101",
+      "employeeName": "Rahul Sharma",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-02",
+      "category": "Daily Operations",
+      "title": "Monthly Fumigation & Pest Control Certification",
+      "workCompleted": "Supervised complete Saturday night fogging and fumigation of Bhiwandi Warehouses A & B by PestKill India Pvt. Ltd.",
+      "decisionsMade": "Postponed pallet intake by 2 hours on Sunday morning until atmospheric gas clearance meter read zero PPM.",
+      "problemsEncountered": "Bait station #14 near south loading ramp showed evidence of rodent gnawing on empty cardboard scrap.",
+      "actionsTaken": "Installed two additional zinc phosphide sealed bait traps outside external perimeter ditch.",
+      "pendingTasks": "Collect signed pest-free compliance certificate from PestKill auditor on Nov 10 for FSSAI audit file.",
+      "peopleInvolved": [
+        "PestKill Technician",
+        "Rajesh Kulkarni (Quality)"
+      ],
+      "observationsLessons": "Contractors frequently forget to replenish bait stations along the railway siding boundary wall; needs manual spot-checking.",
+      "status": "Completed",
+      "permissionLevel": "Public",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-009",
+      "employeeId": "emp-102",
+      "employeeName": "Amit Verma",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "submissionDate": "2026-10-30",
+      "category": "Problem Resolution",
+      "title": "Mumbai-Pune Expressway Tanker Bottleneck & Refrigerated Van Reroute",
+      "workCompleted": "Monitored GPS alerts for 6 refrigerated delivery vans carrying fresh yogurts and nut milks to Pune distributor hubs.",
+      "decisionsMade": "Rerouted 4 vans via Old Mumbai-Pune Highway (NH-48 via Khopoli) when a multi-vehicle tanker collision blocked Khandala Ghat on the expressway.",
+      "problemsEncountered": "Old highway had single-lane diversions adding 1.5 hours travel time, risk of generator fuel exhaustion for reefer compressors.",
+      "actionsTaken": "Instructed drivers to top up diesel at Indian Oil Kalamboli hub before taking bypass route. Tracked reefer telemetry every 20 minutes.",
+      "pendingTasks": "Ensure Devanshi Joshi has the WhatsApp contact for NHAI highway patrol officer Inspector Kadam for real-time congestion clearance.",
+      "peopleInvolved": [
+        "Devanshi Joshi (Successor)",
+        "Vikram Malhotra (Ops Head)"
+      ],
+      "observationsLessons": "Reefer generator fuel tanks are independent from the truck engine tank; drivers must be reminded to fuel both tanks during departures.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-010",
+      "employeeId": "emp-102",
+      "employeeName": "Amit Verma",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "submissionDate": "2026-10-28",
+      "category": "Decision Making",
+      "title": "3PL Carrier Rate Freeze Negotiation with Gati Surface",
+      "workCompleted": "Conducted quarterly freight rate review with Gati regional logistics manager for Maharashtra and Gujarat distribution lanes.",
+      "decisionsMade": "Locked in flat freight rate of ₹4.80/kg for Ahmedabad and Surat routes for Q4 in exchange for minimum guaranteed tonnage of 120 MT/month.",
+      "problemsEncountered": "Gati insisted on 14% diesel escalation surcharge citing crude oil market volatility.",
+      "actionsTaken": "Negotiated capped fuel adjustment factor (FAF) capped at 6.5% maximum, indexed to local Mumbai diesel pump rates.",
+      "pendingTasks": "Formalize contractual annexure with legal team and transfer account manager escalation path to Devanshi.",
+      "peopleInvolved": [
+        "Devanshi Joshi (Successor)",
+        "Vikram Malhotra (Ops Head)",
+        "Gati Commercial Team"
+      ],
+      "observationsLessons": "Always verify Gati vehicle placement SLA penalties; without a ₹1,500/day truck detention clause, carriers delay empty container arrivals.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Verified by manager"
+    },
+    {
+      "id": "act-011",
+      "employeeId": "emp-102",
+      "employeeName": "Amit Verma",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "submissionDate": "2026-10-25",
+      "category": "Customer Interaction",
+      "title": "DMart Kalamboli Distribution Center Unloading Delay Escalation",
+      "workCompleted": "Personally visited DMart Kalamboli Mega Hub after three ABC Consumer delivery trucks were held in waiting queue for over 18 hours.",
+      "decisionsMade": "Met with DMart Inward Logistics Manager Mr. Deshmukh; agreed on designated 05:00 AM off-peak arrival slot for all perishable SKU deliveries.",
+      "problemsEncountered": "Truck drivers were refusing to wait without detention allowance and threatened to dump loads at local transshipment godown.",
+      "actionsTaken": "Authorized emergency driver tea/meal allowance of ₹500 per driver and arranged fast-track dock barcode pre-scanning.",
+      "pendingTasks": "Devanshi to monitor compliance with the 05:00 AM delivery slot for next 30 days to avoid recurrence of detention claims.",
+      "peopleInvolved": [
+        "Devanshi Joshi (Successor)",
+        "Rohan Mehta (Key Accounts)"
+      ],
+      "observationsLessons": "Arriving after 08:30 AM at DMart or Reliance DC guarantees a 12-hour penalty queue behind FMCG majors (HUL/Nestle). Early morning arrival is compulsory.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-012",
+      "employeeId": "emp-102",
+      "employeeName": "Amit Verma",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "submissionDate": "2026-10-22",
+      "category": "Daily Operations",
+      "title": "Fleet FASTag & Telematics Audit Across 18 Dedicated Trucks",
+      "workCompleted": "Audited FASTag wallet balances, vehicle insurance renewal dates, and GPS tracker SIM card data plans across all 18 dedicated contract trucks.",
+      "decisionsMade": "Migrated FASTag corporate account from ICICI to IDFC First Bank to enable automated auto-sweep wallet balance replenishment.",
+      "problemsEncountered": "Two trucks (MH-04-FK-3310 and MH-04-FK-3312) had faulty GPS telemetry antennas resulting in 6-hour blind spots on Nashik route.",
+      "actionsTaken": "Dispatched telematics technician to replace antenna harnesses at Thane bypass check-post.",
+      "pendingTasks": "Devanshi to verify weekly IDFC corporate FASTag statement every Monday morning.",
+      "peopleInvolved": [
+        "Devanshi Joshi (Successor)"
+      ],
+      "observationsLessons": "Never let master FASTag wallet balance drop below ₹25,000; toll plazas double charge blacklisted tags and drivers pay cash out of pocket.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-013",
+      "employeeId": "emp-102",
+      "employeeName": "Amit Verma",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "submissionDate": "2026-10-18",
+      "category": "Problem Resolution",
+      "title": "Cold-Chain Temperature Excursion Incident in Transit to Nagpur",
+      "workCompleted": "Investigated complaint regarding 40 cases of Cashew Milk delivered to Nagpur distributor with sour taste and curdled texture.",
+      "decisionsMade": "Traced GPS and temperature data logger USB download from Reefer Truck #8. Found driver turned off generator between 01:00 AM and 05:00 AM to sleep quietly at a dhaba.",
+      "problemsEncountered": "Driver submitted fake manual temperature sheet claiming constant 4°C throughout journey.",
+      "actionsTaken": "Presented immutable USB data logger timeline showing temperature rose to 22.8°C during night stop. Levied full consignment loss deduction (₹48,000) against transporter security deposit.",
+      "pendingTasks": "Implement tamper-proof cellular real-time temperature loggers with SMS geofence alert directly to logistics desk.",
+      "peopleInvolved": [
+        "Vikram Malhotra (Ops Head)",
+        "Sunita Rao (Distributor Relations)"
+      ],
+      "observationsLessons": "Manual paper temperature logs by drivers are 100% untrustworthy. Only automated encrypted data loggers should be used as commercial evidence.",
+      "status": "Completed",
+      "permissionLevel": "Management Confidential",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-014",
+      "employeeId": "emp-102",
+      "employeeName": "Amit Verma",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "submissionDate": "2026-10-14",
+      "category": "Planning and Strategy",
+      "title": "Handover Briefing: Western Region 3PL Key Contacts & Secret Contingencies",
+      "workCompleted": "Compiled exhaustive dossier of transporter owners, fleet brokers, repair garages along NH-48 and NH-3, and local labor union leaders.",
+      "decisionsMade": "Documented critical informal contact: Mathadi labor union secretary in Navi Mumbai (Baban Rao, Cell: 98191-XXXXX) who must be informed before hiring external contract loaders during festival rushes.",
+      "problemsEncountered": "Unregistered external loaders led to wildcat work stoppages last year.",
+      "actionsTaken": "Briefed Devanshi Joshi on protocol for engaging Mathadi labor board approved gangs.",
+      "pendingTasks": "Schedule introduction meeting between Vikram Malhotra, Devanshi Joshi, and Transporter Association Head.",
+      "peopleInvolved": [
+        "Devanshi Joshi (Successor)",
+        "Vikram Malhotra (Ops Head)"
+      ],
+      "observationsLessons": "Failure to follow Mathadi labor protocols will cause instant dock blockade in Navi Mumbai and Bhiwandi; never bypass local union formalities.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Verified by manager"
+    },
+    {
+      "id": "act-015",
+      "employeeId": "emp-102",
+      "employeeName": "Amit Verma",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "submissionDate": "2026-10-10",
+      "category": "Pending Tasks",
+      "title": "Final Exit Handover: Vehicle Maintenance Log & Driver Fuel Cards",
+      "workCompleted": "Handed over 18 vehicle RC books, fitness certificates, pollution certificates, and 18 HPCL corporate fuel cards to Devanshi Joshi.",
+      "decisionsMade": "Reconciled all fuel card expense vouchers with finance team up to Oct 09.",
+      "problemsEncountered": "One fuel card for truck MH-04-FK-3315 was retained by driver who was on sick leave in Satara.",
+      "actionsTaken": "Hotlisted fuel card #4412-HPCL via online portal to prevent unauthorized fuel dispensing.",
+      "pendingTasks": "Devanshi to issue replacement card once driver resumes duty on Monday.",
+      "peopleInvolved": [
+        "Devanshi Joshi (Successor)",
+        "Vikram Malhotra (Ops Head)"
+      ],
+      "observationsLessons": "Never leave fuel card blocking to manual emails; immediate portal hotlisting is the only safe procedure.",
+      "status": "Completed",
+      "permissionLevel": "Public",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-016",
+      "employeeId": "emp-103",
+      "employeeName": "Neha Patel",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-09",
+      "category": "Daily Operations",
+      "title": "Inbound Raw Material Receiving & Gate Entry Audits",
+      "workCompleted": "Processed 3 inbound container trucks of organic raw almonds (Batch #RAW-ALM-402) from California almond importers at Dock 1.",
+      "decisionsMade": "Sampled 50 bags for moisture content using halogen moisture analyzer. Found average 5.8% moisture (within 6.5% max spec). Approved unloading.",
+      "problemsEncountered": "Truck container seals were unbranded plastic zip-ties rather than bolt security seals documented on the shipping bill.",
+      "actionsTaken": "Photographed unbranded seals and noted deviation on Inward Gate Entry Pass before cutting ties.",
+      "pendingTasks": "Shadow Rahul Sharma on Bay 14 stock allocation and cycle reconciliation tomorrow.",
+      "peopleInvolved": [
+        "Rahul Sharma (Lead Specialist)",
+        "Rajesh Kulkarni (Quality)"
+      ],
+      "observationsLessons": "Customs customs house agents (CHAs) frequently swap container bolt seals at port godowns without alerting the importer.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-017",
+      "employeeId": "emp-103",
+      "employeeName": "Neha Patel",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-08",
+      "category": "Problem Resolution",
+      "title": "Barcode Scanner Fleet Maintenance & Dock Station Calibration",
+      "workCompleted": "Inspected all 6 Zebra TC21 handheld RF scanners used on warehouse loading docks.",
+      "decisionsMade": "Retired Scanner #3 permanently due to swollen lithium-ion battery causing intermittent Bluetooth disconnections during pallet scans.",
+      "problemsEncountered": "Scanner #3 was the root cause of yesterday's unrecorded 18-carton shipment to DMart Thane.",
+      "actionsTaken": "Ordered 2 spare batteries from Zebra authorised dealer in Andheri; marked scanner with red out-of-service tag.",
+      "pendingTasks": "Verify that all 5 remaining scanners successfully upload batch sync files to central SAP-ERP at 18:00 daily.",
+      "peopleInvolved": [
+        "Rahul Sharma (Lead Specialist)"
+      ],
+      "observationsLessons": "Hardware inspection must be part of daily warehouse opening checklist, not just inventory counts.",
+      "status": "Completed",
+      "permissionLevel": "Public",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-018",
+      "employeeId": "emp-103",
+      "employeeName": "Neha Patel",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-07",
+      "category": "Customer Interaction",
+      "title": "Retail Sampling Request Execution for Reliance Signature Stores",
+      "workCompleted": "Packed and labeled 25 promotional display sample packs of new Roasted Almond Vanilla drink for luxury supermarket launch.",
+      "decisionsMade": "Selected freshest production run batch (Nov 04) with minimum 180-day remaining shelf life.",
+      "problemsEncountered": "Marketing team requested luxury gift boxes that were out of stock in packing store.",
+      "actionsTaken": "Consulted Rahul Sharma; utilized premium corrugated cartons with custom branded sticker seals approved by marketing head.",
+      "pendingTasks": "Dispatch via Bluedart air priority courier to Lower Parel office by 14:00 tomorrow.",
+      "peopleInvolved": [
+        "Rahul Sharma (Lead Specialist)",
+        "Rohan Mehta (Key Accounts)"
+      ],
+      "observationsLessons": "Marketing promotional packaging inventory is not currently tracked in the main ERP, creating sudden stockouts.",
+      "status": "Completed",
+      "permissionLevel": "Public",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-019",
+      "employeeId": "emp-103",
+      "employeeName": "Neha Patel",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-04",
+      "category": "Daily Operations",
+      "title": "Physical Bin Reconciliation in Bay 4 - Disputed Counts",
+      "workCompleted": "Re-counted Bay 4 shelving levels 2 and 3 for Almond Beverage 500ml cartons.",
+      "decisionsMade": "Logged count as 428 cartons on the physical clipboard audit sheet.",
+      "problemsEncountered": "ERP inventory screen indicates 430 cartons, whereas Rahul's previous audit note recorded 412 cartons. Significant variance between records.",
+      "actionsTaken": "Cross-checked with gate exit records; discovered that 16 cartons were moved to quarantine inspection area by Rajesh Kulkarni without ERP bin transfer slip.",
+      "pendingTasks": "Standardize procedure so quality team cannot move pallets without scanning a virtual transfer slip in ERP.",
+      "peopleInvolved": [
+        "Rahul Sharma (Lead Specialist)",
+        "Rajesh Kulkarni (Quality)"
+      ],
+      "observationsLessons": "Physical movement of inventory without system scans is the #1 cause of phantom stockouts.",
+      "status": "In Progress",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Conflicting"
+    },
+    {
+      "id": "act-020",
+      "employeeId": "emp-103",
+      "employeeName": "Neha Patel",
+      "departmentId": "dept-1",
+      "departmentName": "Warehouse & Inventory",
+      "submissionDate": "2026-11-01",
+      "category": "Planning and Strategy",
+      "title": "Handover Shadowing Session: Chiller Emergency Protocols",
+      "workCompleted": "Participated in 2-hour walkthrough with Rahul Sharma covering emergency backup generator switchover and ammonia chiller pressure relief valves.",
+      "decisionsMade": "Documented step-by-step valve isolation sequence with photos in the handover SOP repository.",
+      "problemsEncountered": "Emergency manual diesel generator crank requires two operators; cannot be started by a single person in an emergency.",
+      "actionsTaken": "Added requirement to maintain at least two trained operators on every night shift.",
+      "pendingTasks": "Review full draft handover report once generated by system.",
+      "peopleInvolved": [
+        "Rahul Sharma (Lead Specialist)",
+        "Vikram Malhotra (Ops Head)"
+      ],
+      "observationsLessons": "Operational safety procedures cannot rely on the muscle memory of one departing individual.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Verified by manager"
+    },
+    {
+      "id": "act-021",
+      "employeeId": "emp-104",
+      "employeeName": "Devanshi Joshi",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "submissionDate": "2026-11-09",
+      "category": "Daily Operations",
+      "title": "Autonomous Fleet Dispatch - Pune and Nashik Regional Routes",
+      "workCompleted": "Dispatched 7 refrigerated container trucks to Pune, Nashik and Aurangabad distributors according to morning schedule.",
+      "decisionsMade": "Enforced Amit Verma's departure rule: No reefer truck leaves gate unless temperature data logger registers 3.8°C or below for 15 minutes continuously.",
+      "problemsEncountered": "Driver of truck MH-04-FK-3318 complained that cooling unit required 45 minutes to pull down temperature.",
+      "actionsTaken": "Held truck at bay; discovered evaporator coil had heavy frost buildup. Performed manual defrost cycle before release.",
+      "pendingTasks": "Review evening GPS tracks for any unauthorized highway stops.",
+      "peopleInvolved": [
+        "Vikram Malhotra (Ops Head)"
+      ],
+      "observationsLessons": "Pull-down time is the best early warning sign of refrigerant gas leakage.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-022",
+      "employeeId": "emp-104",
+      "employeeName": "Devanshi Joshi",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "submissionDate": "2026-11-07",
+      "category": "Problem Resolution",
+      "title": "Resolution of Gati Freight Billing Discrepancy",
+      "workCompleted": "Audited monthly invoice #GATI-INV-8821 from Gati Surface Logistics amounting to ₹4,82,000.",
+      "decisionsMade": "Deducted ₹38,400 from invoice based on Amit Verma's negotiated flat rate of ₹4.80/kg and fuel adjustment factor cap of 6.5%.",
+      "problemsEncountered": "Gati billing department had applied their standard 14% diesel surcharge claiming they had no record of the rate freeze agreement.",
+      "actionsTaken": "Produced signed rate agreement letter executed by Amit Verma on Oct 28. Gati finance team accepted revised credit note.",
+      "pendingTasks": "File signed credit note in finance compliance archive.",
+      "peopleInvolved": [
+        "Vikram Malhotra (Ops Head)"
+      ],
+      "observationsLessons": "Without Amit Verma's documented handover notes, our company would have overpaid ₹38,400 this month alone.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-023",
+      "employeeId": "emp-104",
+      "employeeName": "Devanshi Joshi",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "submissionDate": "2026-11-05",
+      "category": "Customer Interaction",
+      "title": "DMart Thane On-Time Delivery SLA Review",
+      "workCompleted": "Attended vendor performance review at DMart regional distribution office.",
+      "decisionsMade": "Presented 96.4% on-time delivery metric achieved over the last 14 days by sticking to the 05:00 AM off-peak arrival window established by Amit.",
+      "problemsEncountered": "One truck was delayed on Nov 02 due to Thane toll plaza congestion.",
+      "actionsTaken": "Showed automated timestamp from IDFC corporate FASTag portal proving the truck arrived at toll barrier at 04:38 AM and delay was caused by lane closure.",
+      "pendingTasks": "Submit monthly SLA report to Rohan Mehta.",
+      "peopleInvolved": [
+        "Rohan Mehta (Key Accounts)"
+      ],
+      "observationsLessons": "FASTag toll transaction timestamps are legally admissible evidence to counter retailer demurrage penalties.",
+      "status": "Completed",
+      "permissionLevel": "Public",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-024",
+      "employeeId": "emp-104",
+      "employeeName": "Devanshi Joshi",
+      "departmentId": "dept-2",
+      "departmentName": "Logistics & Delivery",
+      "submissionDate": "2026-11-03",
+      "category": "Pending Tasks",
+      "title": "Western Ghats Winter Fog Advisory Route Planning",
+      "workCompleted": "Reviewed meteorological advisory predicting heavy ground fog and reduced visibility along Kasara and Khandala Ghats between 02:00 AM and 06:00 AM.",
+      "decisionsMade": "Adjusted night dispatch departure schedules: All heavy container vehicles now depart Bhiwandi at 22:30 PM rather than 01:00 AM.",
+      "problemsEncountered": "Warehouse night loading crew requested overtime approval for early staging.",
+      "actionsTaken": "Secured budget approval from Vikram Malhotra for 1.5 hours crew overtime.",
+      "pendingTasks": "Coordinate with Neha Patel to confirm outbound pallets are pre-wrapped and staged by 21:30 PM.",
+      "peopleInvolved": [
+        "Neha Patel (Warehouse)",
+        "Vikram Malhotra (Ops Head)"
+      ],
+      "observationsLessons": "A 90-minute earlier departure prevents 4 hours of idling in ghat fog and reduces cold-chain refrigeration load.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-025",
+      "employeeId": "emp-105",
+      "employeeName": "Vikram Malhotra",
+      "departmentId": "dept-4",
+      "departmentName": "Strategy & Operations",
+      "submissionDate": "2026-11-08",
+      "category": "Decision Making",
+      "title": "Executive Approval of Knowledge Handover Process for Rahul Sharma",
+      "workCompleted": "Initiated formal knowledge handover workflow for outgoing Lead Warehouse Specialist Rahul Sharma (notice period ending Nov 28).",
+      "decisionsMade": "Designated Neha Patel as primary operational successor. Ordered full AI knowledge synthesis across Rahul's 18 months of daily logs and SOPs.",
+      "problemsEncountered": "Identified several unwritten vendor workarounds that were not yet in the official SOP library (e.g. emergency refrigeration cash advance).",
+      "actionsTaken": "Requested Rahul Sharma to explicitly document all offline vendor agreements and cold storage manual fail-safes.",
+      "pendingTasks": "Review AI-generated Handover Report draft on Nov 10; execute formal approval and grant successor access to Neha Patel.",
+      "peopleInvolved": [
+        "Rahul Sharma (Lead Specialist)",
+        "Neha Patel (Successor)",
+        "Ananya Sen (Admin)"
+      ],
+      "observationsLessons": "Handover must begin on Day 1 of notice period, not during the final week, to allow shadowing and live scenario testing.",
+      "status": "Completed",
+      "permissionLevel": "Management Confidential",
+      "evidenceClassification": "Verified by manager"
+    },
+    {
+      "id": "act-026",
+      "employeeId": "emp-105",
+      "employeeName": "Vikram Malhotra",
+      "departmentId": "dept-4",
+      "departmentName": "Strategy & Operations",
+      "submissionDate": "2026-11-06",
+      "category": "Planning and Strategy",
+      "title": "Q4 Supply Chain Resiliency & Secondary Vendor Onboarding",
+      "workCompleted": "Convened emergency vendor review meeting with procurement analyst Tanya Kapoor to address carton supply fragility.",
+      "decisionsMade": "Approved onboarding of 'PackWell Solutions' as qualified secondary corrugated packaging supplier with 30% volume allocation.",
+      "problemsEncountered": "Apex PolyPrint's recurring ECT failures threaten peak December bottling runs.",
+      "actionsTaken": "Signed dual-sourcing framework contract with PackWell Solutions with guaranteed 48-hour delivery SLA.",
+      "pendingTasks": "Tanya to conduct sample line testing of PackWell cartons on high-speed filling line.",
+      "peopleInvolved": [
+        "Tanya Kapoor (Procurement)",
+        "Rahul Sharma (Warehouse)"
+      ],
+      "observationsLessons": "Relying on a single packaging vendor was our biggest supply chain vulnerability over the past two quarters.",
+      "status": "Completed",
+      "permissionLevel": "Management Confidential",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-027",
+      "employeeId": "emp-105",
+      "employeeName": "Vikram Malhotra",
+      "departmentId": "dept-4",
+      "departmentName": "Strategy & Operations",
+      "submissionDate": "2026-11-02",
+      "category": "Project Work",
+      "title": "Review of Amit Verma's Completed Handover to Devanshi Joshi",
+      "workCompleted": "Audited 14-day post-handover operational metrics following Amit Verma's departure from Logistics.",
+      "decisionsMade": "Confirmed that Devanshi Joshi successfully handled 100% of route allocations, Gati rate enforcement, and DMart delivery windows without operational disruption.",
+      "problemsEncountered": "Minor initial confusion regarding FASTag portal user credentials, resolved via WORKTRACE successor assistant query.",
+      "actionsTaken": "Approved final exit sign-off and gratuity clearance for Amit Verma.",
+      "pendingTasks": "Archive Amit Verma's historical records into permanent knowledge repository.",
+      "peopleInvolved": [
+        "Devanshi Joshi (Successor)",
+        "Ananya Sen (Admin)"
+      ],
+      "observationsLessons": "The WORKTRACE structured handover prevented at least ₹1,20,000 in carrier billing overcharges and SLA penalties during leadership transition.",
+      "status": "Completed",
+      "permissionLevel": "Management Confidential",
+      "evidenceClassification": "Verified by manager"
+    },
+    {
+      "id": "act-028",
+      "employeeId": "emp-107",
+      "employeeName": "Rohan Mehta",
+      "departmentId": "dept-3",
+      "departmentName": "Sales & Customer Relations",
+      "submissionDate": "2026-11-09",
+      "category": "Customer Interaction",
+      "title": "Reliance Retail Q3 Commercial Reconciliation & Listing Agreement",
+      "workCompleted": "Finalized commercial joint business plan (JBP) with Reliance Retail FMCG Category Director at Navi Mumbai.",
+      "decisionsMade": "Agreed to 3.5% promotional rebate for end-of-aisle gondola displays across 140 SMART Bazaar stores in West Zone.",
+      "problemsEncountered": "Reliance requested 60-day credit terms instead of current 30-day terms.",
+      "actionsTaken": "Negotiated compromise: 45-day credit terms tied to automated electronic fund transfer (NEFT) on 45th day without invoice dispute delays.",
+      "pendingTasks": "Finance team to update credit limits in ERP system.",
+      "peopleInvolved": [
+        "Sunita Rao (Distributor Relations)",
+        "Vikram Malhotra (Ops Head)"
+      ],
+      "observationsLessons": "Modern trade buyers always push for 60-90 day credit; offering prime promotional floor space concessions helps hold the credit line.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-029",
+      "employeeId": "emp-107",
+      "employeeName": "Rohan Mehta",
+      "departmentId": "dept-3",
+      "departmentName": "Sales & Customer Relations",
+      "submissionDate": "2026-11-06",
+      "category": "Problem Resolution",
+      "title": "Packaging Crush Debit Note Settlement with Spencers Retail",
+      "workCompleted": "Audited debit notes totaling ₹54,000 submitted by Spencers Retail for crushed outer cartons.",
+      "decisionsMade": "Settled claim for ₹24,000 after warehouse inspection proved that secondary shrink-wrap had prevented internal beverage pouch damage.",
+      "problemsEncountered": "Spencers store managers were classifying minor cosmetic corner dents as unsellable damaged goods.",
+      "actionsTaken": "Established photo-evidence verification protocol where Spencers must attach photos of opened damaged product before debit note issuance.",
+      "pendingTasks": "Sunita Rao to train distributor support team on new claim verification portal.",
+      "peopleInvolved": [
+        "Sunita Rao (Distributor Relations)",
+        "Rahul Sharma (Warehouse)"
+      ],
+      "observationsLessons": "Retailers will routinely claim 100% carton loss unless required to provide photographic proof of inner product seal damage.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-030",
+      "employeeId": "emp-107",
+      "employeeName": "Rohan Mehta",
+      "departmentId": "dept-3",
+      "departmentName": "Sales & Customer Relations",
+      "submissionDate": "2026-11-03",
+      "category": "Planning and Strategy",
+      "title": "Diwali Festive Stockout Risk Analysis - Metro Cash & Carry",
+      "workCompleted": "Analyzed weekly stock velocity at 12 Metro Cash & Carry wholesale depots across Western India.",
+      "decisionsMade": "Requested emergency allocation of 600 cartons of 1L Almond Milk from Bhiwandi hub to prevent weekend stockout.",
+      "problemsEncountered": "Bhiwandi warehouse reported tight buffer stock due to Apex PolyPrint carton delivery delay.",
+      "actionsTaken": "Coordinated with Vikram Malhotra to release 400 cartons immediately and remainder 200 cartons from fresh bottling on Monday.",
+      "pendingTasks": "Follow up with Metro category head on Monday reorder quantities.",
+      "peopleInvolved": [
+        "Vikram Malhotra (Ops Head)",
+        "Rahul Sharma (Warehouse)"
+      ],
+      "observationsLessons": "Wholesale cash-and-carry clubs experience 300% demand surge 10 days before festivals; forecasting must rely on sell-out rather than sell-in.",
+      "status": "Completed",
+      "permissionLevel": "Public",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-031",
+      "employeeId": "emp-108",
+      "employeeName": "Sunita Rao",
+      "departmentId": "dept-3",
+      "departmentName": "Sales & Customer Relations",
+      "submissionDate": "2026-11-08",
+      "category": "Customer Interaction",
+      "title": "Distributor Dispute Settlement - Gujarat Dairy Products",
+      "workCompleted": "Conducted virtual conciliation session with primary Surat distributor regarding delayed dispatch of 180 cartons.",
+      "decisionsMade": "Issued credit memo for ₹4,200 covering local transshipment cartage caused by Gati delivery truck delay.",
+      "problemsEncountered": "Distributor threatened to halt market replenishment of ABC Consumer products in Surat city.",
+      "actionsTaken": "Provided Gati GPS transit logs showing severe highway landslide delay; distributor acknowledged force majeure circumstances.",
+      "pendingTasks": "Dispatch next consignment via priority express lane.",
+      "peopleInvolved": [
+        "Devanshi Joshi (Logistics)",
+        "Rohan Mehta (Key Accounts)"
+      ],
+      "observationsLessons": "Distributors appreciate proactive sharing of GPS tracking links; silence from logistics turns minor delays into commercial crises.",
+      "status": "Completed",
+      "permissionLevel": "Department",
+      "evidenceClassification": "Evidence-supported"
+    },
+    {
+      "id": "act-032",
+      "employeeId": "emp-108",
+      "employeeName": "Sunita Rao",
+      "departmentId": "dept-3",
+      "departmentName": "Sales & Customer Relations",
+      "submissionDate": "2026-11-05",
+      "category": "Problem Resolution",
+      "title": "Customer Helpline Escalation: Almond Beverage Clumping Complaint",
+      "workCompleted": "Investigated consumer complaint received via WhatsApp helpline from a customer in Vashi, Navi Mumbai.",
+      "decisionsMade": "Retrieved retain sample of Batch #ALM-980 from quality laboratory and dispatched courier with replacement gift hamper.",
+      "problemsEncountered": "Retain sample in laboratory showed normal consistency; suspicion that retailer store kept bottle under direct sunlight in front window display.",
+      "actionsTaken": "Sent distributor field sales representative to inspect the Vashi retail shop; confirmed shop had switched off display chillers overnight to save electricity.",
+      "pendingTasks": "Issue advisory circular to all tier-2 retailers emphasizing mandatory 24x7 refrigeration for plant-based milks.",
+      "peopleInvolved": [
+        "Rajesh Kulkarni (Quality)",
+        "Rahul Sharma (Warehouse)"
+      ],
+      "observationsLessons": "Plant milks lack artificial stabilizers; retail shop chiller shutdowns at night are the primary culprit behind localized product separation.",
+      "status": "Completed",
+      "permissionLevel": "Public",
+      "evidenceClassification": "Evidence-supported"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-001",
+      "title": "SOP-WH-04: Daily Warehouse Reconciliation & FIFO Cycle Count Procedure",
+      "docNumber": "SOP-WH-04-REV3",
+      "fileType": "pdf",
+      "fileSize": "1.8 MB",
+      "departmentName": "Warehouse & Inventory",
+      "departmentId": "dept-1",
+      "uploadedByEmployeeId": "emp-101",
+      "uploadedByEmployeeName": "Rahul Sharma",
+      "uploadDate": "2026-09-15",
+      "category": "SOP",
+      "permissionLevel": "Public",
+      "summary": "Standard operating procedure for daily physical inventory reconciliation, RF barcode terminal verification, and lot expiration tagging across Bhiwandi Hub.",
+      "contentSnippet": "All perishable nut milk SKUs must be counted across primary racking bays 1 to 14. Any discrepancy exceeding 5 cartons must trigger dock supervisor investigation and CCTV timestamp review. Handheld RF terminals must be docked in central charging bay by 18:30 daily.",
+      "keyTakeaways": [
+        "Daily cycle count mandatory by 08:30 AM before outbound loading begins",
+        "Perishable stock expiring within 45 days must be marked with green FIFO stickers",
+        "All manual adjustments in ERP require two-person supervisor authentication"
+      ]
+    },
+    {
+      "id": "doc-002",
+      "title": "LOG-SOP-12: Cold-Chain Logistics Incident & Temperature Excursion Protocol",
+      "docNumber": "LOG-SOP-12-REV2",
+      "fileType": "pdf",
+      "fileSize": "2.4 MB",
+      "departmentName": "Logistics & Delivery",
+      "departmentId": "dept-2",
+      "uploadedByEmployeeId": "emp-102",
+      "uploadedByEmployeeName": "Amit Verma",
+      "uploadDate": "2026-08-20",
+      "category": "SOP",
+      "permissionLevel": "Department",
+      "summary": "Mandatory emergency protocol for handling reefer truck mechanical breakdowns, highway congestions, and temperature spikes above 4.0°C in transit.",
+      "contentSnippet": "If temperature telemetry indicates temperature exceeding 6.0°C for more than 45 minutes, the carrier is contractually obligated to pull into the nearest approved cold storage facility listed in Annexure B. Manual driver logs are deemed non-compliant without encrypted USB logger download.",
+      "keyTakeaways": [
+        "Independent generator fuel tank must be topped up before every inter-district transit",
+        "Tamper-evident cellular temperature loggers must be activated at dispatch gate",
+        "Maximum permissible deviation: 4.0°C ± 1.5°C for maximum 30 continuous minutes"
+      ]
+    },
+    {
+      "id": "doc-003",
+      "title": "STRAT-Q3-OPS: ABC Consumer Products Supply Chain Resilience Plan",
+      "docNumber": "STRAT-Q3-OPS-2026",
+      "fileType": "docx",
+      "fileSize": "3.2 MB",
+      "departmentName": "Strategy & Operations",
+      "departmentId": "dept-4",
+      "uploadedByEmployeeId": "emp-105",
+      "uploadedByEmployeeName": "Vikram Malhotra",
+      "uploadDate": "2026-10-01",
+      "category": "Strategy & Planning",
+      "permissionLevel": "Management Confidential",
+      "summary": "Strategic roadmap for mitigating single-supplier risks, upgrading automated ERP batch tracking, and formalizing organizational knowledge retention.",
+      "contentSnippet": "High dependency on single suppliers for corrugated outer packaging (Apex PolyPrint) and single points of operational failure in warehouse leadership present unacceptable risks. Transitioning to dual-vendor sourcing and deploying WORKTRACE platform to capture institutional knowledge.",
+      "keyTakeaways": [
+        "Dual-vendor corrugated packaging split (70% primary, 30% secondary) mandatory by Q4",
+        "Mandatory knowledge handover protocol for any employee tendering resignation",
+        "Implementation of automated FASTag and telematics integration to eliminate carrier billing disputes"
+      ]
+    },
+    {
+      "id": "doc-004",
+      "title": "CR-GUIDE-09: Tier-1 Modern Trade Retailer Escalation & Credit Dispute Matrix",
+      "docNumber": "CR-GUIDE-09-REV1",
+      "fileType": "pdf",
+      "fileSize": "1.1 MB",
+      "departmentName": "Sales & Customer Relations",
+      "departmentId": "dept-3",
+      "uploadedByEmployeeId": "emp-107",
+      "uploadedByEmployeeName": "Rohan Mehta",
+      "uploadDate": "2026-07-12",
+      "category": "Operational Report",
+      "permissionLevel": "Department",
+      "summary": "Standardized dispute resolution matrix for debit notes issued by Reliance Retail, DMart, and Spencers covering transit damage and expiry returns.",
+      "contentSnippet": "Retailers frequently attempt to pass off store-level stock handling damage as factory or transit defects. All damage claims over ₹10,000 require photographic evidence of inner primary seals. Credit notes must be issued within 14 days of joint physical verification.",
+      "keyTakeaways": [
+        "Maximum allowed carton crush deduction without inner pouch damage is 15%",
+        "Mandatory photographic inspection protocol before signing receiver delivery challans",
+        "Escalation hierarchy: Customer Support -> Key Accounts Manager -> Head of Operations"
+      ]
+    },
+    {
+      "id": "doc-005",
+      "title": "AUDIT-INV-2026: Bhiwandi Warehouse Annual Quality & Shrinkage Report",
+      "docNumber": "AUDIT-INV-2026-Q2",
+      "fileType": "pdf",
+      "fileSize": "4.5 MB",
+      "departmentName": "Warehouse & Inventory",
+      "departmentId": "dept-1",
+      "uploadedByEmployeeId": "emp-109",
+      "uploadedByEmployeeName": "Rajesh Kulkarni",
+      "uploadDate": "2026-10-15",
+      "category": "Incident & Audit",
+      "permissionLevel": "Department",
+      "summary": "Comprehensive audit of stock shrinkage, cold room insulation efficiency, and pest control compliance across Bhiwandi Central Hub.",
+      "contentSnippet": "Overall inventory shrinkage recorded at 0.42% of gross stock value, well below the 0.75% industry threshold. Identified recurring inventory discrepancy in Bay 4 caused by unlogged movement of quality quarantine lots. Recommended automated biometric terminal access.",
+      "keyTakeaways": [
+        "Net shrinkage stood at 0.42% (primarily due to outer carton crush during loading)",
+        "Cold room vinyl air curtain requires quarterly replacement",
+        "Elimination of generic warehouse terminal PINs recommended immediately"
+      ]
+    },
+    {
+      "id": "doc-006",
+      "title": "VEND-APEX-REPORT: Apex PolyPrint Packaging Quality Failure Root Cause Analysis",
+      "docNumber": "VEND-RCA-2026-08",
+      "fileType": "docx",
+      "fileSize": "850 KB",
+      "departmentName": "Warehouse & Inventory",
+      "departmentId": "dept-1",
+      "uploadedByEmployeeId": "emp-101",
+      "uploadedByEmployeeName": "Rahul Sharma",
+      "uploadDate": "2026-11-04",
+      "category": "Incident & Audit",
+      "permissionLevel": "Department",
+      "summary": "Root cause analysis detailing Edge Crush Test failures in corrugated cartons delivered by Apex PolyPrint in October and November 2026.",
+      "contentSnippet": "Laboratory bursting strength tests revealed that Apex PolyPrint substituted 180 GSM virgin kraft paper with 140 GSM semi-chemical recycled fluting to cut production costs, leading to carton collapse under high-humidity warehouse stacking conditions.",
+      "keyTakeaways": [
+        "Carton collapse was caused by unapproved sub-standard paper GSM substitution by vendor",
+        "All consignments must now undergo random calibrated bursting test before gate acceptance",
+        "Financial penalty and recovery of ₹1,12,000 executed against supplier invoices"
+      ]
+    },
+    {
+      "id": "doc-007",
+      "title": "FLEET-SLA-GATI: Gati Surface Logistics Q4 Service Level Agreement & Rate Card",
+      "docNumber": "CTR-LOG-2026-44",
+      "fileType": "pdf",
+      "fileSize": "1.9 MB",
+      "departmentName": "Logistics & Delivery",
+      "departmentId": "dept-2",
+      "uploadedByEmployeeId": "emp-102",
+      "uploadedByEmployeeName": "Amit Verma",
+      "uploadDate": "2026-10-29",
+      "category": "Strategy & Planning",
+      "permissionLevel": "Management Confidential",
+      "summary": "Signed rate card agreement locking Western India freight rates at ₹4.80/kg with capped fuel adjustment factors and driver detention clauses.",
+      "contentSnippet": "Contractual agreement binding Gati Surface Logistics to provide minimum 4 dedicated 24-foot reefer trucks daily. Placement delay penalty of ₹1,500 per vehicle-day. FAF capped at 6.5% regardless of wholesale diesel price fluctuations.",
+      "keyTakeaways": [
+        "Flat rate of ₹4.80/kg guaranteed for Mumbai, Pune, Nashik, Surat lanes",
+        "Fuel adjustment factor strictly capped at 6.5%",
+        "Mandatory 24-hour advance booking for weekend holiday runs"
+      ]
+    },
+    {
+      "id": "doc-008",
+      "title": "SOP-SEC-01: Caged Security Enclosure 'Vault-B' High-Value SKU Access Rules",
+      "docNumber": "SOP-SEC-01-REV1",
+      "fileType": "pdf",
+      "fileSize": "680 KB",
+      "departmentName": "Warehouse & Inventory",
+      "departmentId": "dept-1",
+      "uploadedByEmployeeId": "emp-101",
+      "uploadedByEmployeeName": "Rahul Sharma",
+      "uploadDate": "2026-11-06",
+      "category": "SOP",
+      "permissionLevel": "Department",
+      "summary": "Security protocols governing access, dual-key authorization, and inventory check-out for high-value nut butter cases in Vault-B.",
+      "contentSnippet": "Vault-B houses inventory with unit value exceeding ₹800 per carton. Entry is permitted only when accompanied by Warehouse Lead and Quality Inspector. Physical register must record carton serial numbers and destination challan number.",
+      "keyTakeaways": [
+        "Dual-key access required: Key 1 with Warehouse Lead, Key 2 with Security Supervisor",
+        "Mandatory physical ledger entry at time of pallet retrieval",
+        "CCTV camera 9 focused continuously on Vault-B entryway"
+      ]
+    },
+    {
+      "id": "doc-009",
+      "title": "GOV-POL-04: Organizational Knowledge Continuity and Exit Handover Policy",
+      "docNumber": "GOV-POL-04-2026",
+      "fileType": "pdf",
+      "fileSize": "1.3 MB",
+      "departmentName": "Strategy & Operations",
+      "departmentId": "dept-4",
+      "uploadedByEmployeeId": "emp-106",
+      "uploadedByEmployeeName": "Ananya Sen",
+      "uploadDate": "2026-06-01",
+      "category": "Strategy & Planning",
+      "permissionLevel": "Public",
+      "summary": "Corporate policy establishing mandatory structured knowledge handovers, WORKTRACE platform compliance, and successor onboarding protocols.",
+      "contentSnippet": "The resignation of any employee triggers an immediate knowledge preservation sequence. Managers must initiate the WORKTRACE handover workflow within 3 business days of notice submission. Gratuity and final experience certificates are contingent upon approved handover completion.",
+      "keyTakeaways": [
+        "Notice period handover initiated within 72 hours of resignation",
+        "AI synthesis must be reviewed, verified, and approved by reporting manager",
+        "Successor granted read access with interactive AI context assistant"
+      ]
+    },
+    {
+      "id": "doc-010",
+      "title": "DIST-COMP-2026: Modern Trade & Distributor Packaging Damage Audit",
+      "docNumber": "DIST-COMP-2026-M10",
+      "fileType": "docx",
+      "fileSize": "1.6 MB",
+      "departmentName": "Sales & Customer Relations",
+      "departmentId": "dept-3",
+      "uploadedByEmployeeId": "emp-108",
+      "uploadedByEmployeeName": "Sunita Rao",
+      "uploadDate": "2026-10-31",
+      "category": "Operational Report",
+      "permissionLevel": "Public",
+      "summary": "Monthly consolidation of distributor complaints, transport damages, and retail return trends across Western and Central India.",
+      "contentSnippet": "Consolidated report showing that 68% of all packaging damage claims originated from deliveries shipped in Apex PolyPrint outer cartons. Transition to PackWell Solutions secondary boxes resulted in immediate 40% reduction in carton deformation complaints.",
+      "keyTakeaways": [
+        "Transit claims peaked at ₹1,88,000 during September monsoon humidity",
+        "Shrink-wrapped pallets exhibited 75% fewer damage claims than strap-banded pallets",
+        "Distributor satisfaction index improved by 14 points following GPS live sharing"
+      ]
+    }
+  ],
+  "handovers": [
+    {
+      "id": "ho-101",
+      "employeeId": "emp-101",
+      "employeeName": "Rahul Sharma",
+      "employeeDesignation": "Lead Warehouse & Inventory Specialist",
+      "departmentName": "Warehouse & Inventory",
+      "managerId": "emp-105",
+      "managerName": "Vikram Malhotra",
+      "successorId": "emp-103",
+      "successorName": "Neha Patel",
+      "status": "Awaiting Review",
+      "createdAt": "2026-11-05T09:00:00Z",
+      "updatedAt": "2026-11-09T17:30:00Z",
+      "aiGenerated": true,
+      "aiEngineUsed": "gemini-3.8-flash",
+      "handoverScore": 92,
+      "responsibilities": {
+        "title": "Core Responsibilities & Daily Routines",
+        "items": [
+          "Primary pallet allocation across Bhiwandi Hub Bays 1 to 14 (cold and ambient sections)",
+          "Executing daily physical-to-ERP cycle counts for perishable plant milk SKUs by 08:30 AM",
+          "Managing supplier return merchandise authorisations (RMA) and incoming quality inspection",
+          "Supervising daily temperature logs and maintenance of Cold Storage Unit C"
+        ],
+        "sources": [
+          "act-001",
+          "act-002",
+          "doc-001"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true,
+        "notes": "Accurately represents Rahul's day-to-day duties. Verified by Vikram Malhotra."
+      },
+      "completedProjects": {
+        "title": "Completed Operational Projects & Milestone Deliverables",
+        "items": [
+          "Implemented Caged Security Enclosure 'Vault-B' for high-value nut butter cases with dual-key access",
+          "Resolved Cold Storage Unit C sensor failure by anchoring industrial vibration-resistant bracket",
+          "Completed bi-annual warehouse fumigation and pest control certification with PestKill India"
+        ],
+        "sources": [
+          "act-001",
+          "act-006",
+          "act-008",
+          "doc-008"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "importantDecisions": {
+        "title": "Important Operational Decisions & Precedents",
+        "items": [
+          "Rejected sub-standard consignment of 5,000 cartons from Apex PolyPrint when ECT was <32 lbs/in",
+          "Quarantined 120 cartons of Almond Beverage Batch #ALM-992 after 55-minute chiller temperature drift",
+          "Mandated biometric/individual user badge logins on warehouse ERP terminal #4 to stop anonymous manual adjustments"
+        ],
+        "sources": [
+          "act-001",
+          "act-003",
+          "act-006",
+          "doc-006"
+        ],
+        "evidenceLevel": "Verified by manager",
+        "managerApproved": true,
+        "notes": "Strict enforcement of packaging quality tests was vital to prevent retail crush disasters."
+      },
+      "pendingTasks": {
+        "title": "Immediate Pending Tasks for Successor Attention",
+        "items": [
+          "CRITICAL: Handover physical floor blueprint with color-coded weight limits for mezzanine storage to Neha Patel",
+          "CRITICAL: Sourcing 2,000 emergency buffer cartons from PackWell Solutions for upcoming festive bottling runs",
+          "HIGH: Receive sign-off from Rajesh Kulkarni before clearing Batch #ALM-992 quarantine lot",
+          "MEDIUM: Conduct full audit of manual ledger overrides between Oct 15 and Nov 01 with IT team"
+        ],
+        "sources": [
+          "act-001",
+          "act-003",
+          "act-004",
+          "act-006"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": false,
+        "notes": "Manager added priority tags. Neha should prioritize the PackWell buffer cartons on Day 1."
+      },
+      "unresolvedProblems": {
+        "title": "Unresolved Problems & Operational Vulnerabilities",
+        "items": [
+          "Cold storage vinyl door curtain strips torn and allowing ambient heat infiltration during forklift ingress",
+          "Handheld scanner battery degradation leading to unrecorded night dock pallet loading",
+          "Informal cash advance workaround for Sunday emergency refrigeration repairs (Sharmaji)"
+        ],
+        "sources": [
+          "act-001",
+          "act-002",
+          "act-007"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "recurringOperationalIssues": {
+        "title": "Recurring Operational Issues",
+        "items": [
+          "Inventory discrepancy in Bay 4 between physical counts (428/412) and ERP ledger (430) due to unlogged quarantine movements",
+          "Night shift operators neglecting to place RF handheld terminals into charging cradles",
+          "Pest control contractors failing to replenish perimeter bait stations near railway siding"
+        ],
+        "sources": [
+          "act-002",
+          "act-008",
+          "act-019",
+          "doc-005"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "documentedSolutions": {
+        "title": "Documented Solutions & Standard Operating Workarounds",
+        "items": [
+          "Cross-reference night dock CCTV timestamps to catch un-scanned truck loadings (worked for DMart truck MH-04-GP-1200)",
+          "Lock high-value nut butter cases in Vault-B with dual-key access to stop manual inventory shrinkage",
+          "Stickering pallets with fluorescent green labels for lots expiring within 45 days to guarantee FIFO compliance"
+        ],
+        "sources": [
+          "act-002",
+          "act-006",
+          "doc-001",
+          "doc-008"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "importantContacts": {
+        "title": "Key External & Internal Contacts",
+        "items": [
+          "Sharmaji (Emergency Refrigeration Chiller Technician) - Cell: 98200-XXXXX [Requires ₹2,000 cash advance for Sunday night calls]",
+          "Suresh (Apex PolyPrint Sales Rep) - Cell: 98112-XXXXX [Requires formal rejection cert for replacement]",
+          "Vikram Malhotra (Head of Ops) - Extension #402 [Approver for emergency secondary carton procurement]",
+          "Rajesh Kulkarni (Quality & Audit Inspector) - Bhiwandi Hub Ext #114 [Sign-off for quarantine release]"
+        ],
+        "sources": [
+          "act-001",
+          "act-003",
+          "act-007"
+        ],
+        "evidenceLevel": "Verified by manager",
+        "managerApproved": true
+      },
+      "departmentalDependencies": {
+        "title": "Cross-Departmental Dependencies",
+        "items": [
+          "Quality Team (Rajesh Kulkarni): Requires instant notification whenever cold room temperature exceeds 4.5°C",
+          "Fleet Logistics (Devanshi Joshi): Requires pre-wrapped pallets staged by 21:30 PM for early morning ghat departures",
+          "Key Accounts (Rohan Mehta): Requires batch-specific pallet photographs before retail dispute debit notes are cleared"
+        ],
+        "sources": [
+          "act-001",
+          "act-005",
+          "act-024"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "standardOperatingProcedures": {
+        "title": "Governing Standard Operating Procedures",
+        "items": [
+          "SOP-WH-04: Daily Warehouse Reconciliation & FIFO Cycle Count Procedure",
+          "SOP-SEC-01: Caged Security Enclosure 'Vault-B' High-Value SKU Access Rules",
+          "LOG-SOP-12: Cold-Chain Logistics Incident & Temperature Excursion Protocol"
+        ],
+        "sources": [
+          "doc-001",
+          "doc-002",
+          "doc-008"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "relevantSupportingDocuments": {
+        "title": "Relevant Supporting Documents & Audit Evidence",
+        "items": [
+          "VEND-APEX-REPORT: Apex PolyPrint Packaging Quality Failure Root Cause Analysis",
+          "AUDIT-INV-2026: Bhiwandi Warehouse Annual Quality & Shrinkage Report"
+        ],
+        "sources": [
+          "doc-005",
+          "doc-006"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "evidenceBasedWorkPatterns": {
+        "title": "Documented Professional Work Patterns",
+        "items": [
+          "Conducts early morning physical floor walk at 08:30 AM before any computer ERP entry is made",
+          "Routinely captures time-stamped digital photos of outbound pallets to preempt retailer damage claims",
+          "Maintains physical paper log backup alongside digital handheld terminal scans"
+        ],
+        "sources": [
+          "act-001",
+          "act-002",
+          "act-005"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true,
+        "notes": "Strictly based on documented activities; no psychological inference."
+      },
+      "missingOrConflictingInformation": {
+        "title": "Detected Gaps, Uncertainties & Conflicting Records",
+        "items": [
+          "CONFLICTING: Discrepancy between physical bin count (428 cartons vs 412 cartons) and ERP balance (430 cartons) in Bay 4. Root cause is un-scanned quality transfers, but ERP ledger has not yet been reconciled.",
+          "UNCERTAIN / UNCONTRACTED: Informal arrangement with refrigeration technician Sharmaji is not backed by a signed corporate vendor SLA.",
+          "MISSING: Mezzanine load-bearing structural certification certificate is not filed in document repository; survey scheduled for Nov 14."
+        ],
+        "sources": [
+          "act-002",
+          "act-004",
+          "act-006",
+          "act-007",
+          "act-019"
+        ],
+        "evidenceLevel": "Conflicting",
+        "managerApproved": true,
+        "notes": "System correctly flagged the Bay 4 count contradiction and the informal cash payment risk."
+      },
+      "managerFinalRemarks": "Comprehensive handover report. Neha Patel is fully briefed and shadowed Rahul on the floor. Pending tasks are clear."
+    },
+    {
+      "id": "ho-102",
+      "employeeId": "emp-102",
+      "employeeName": "Amit Verma",
+      "employeeDesignation": "Senior Fleet & Route Logistics Lead",
+      "departmentName": "Logistics & Delivery",
+      "managerId": "emp-105",
+      "managerName": "Vikram Malhotra",
+      "successorId": "emp-104",
+      "successorName": "Devanshi Joshi",
+      "status": "Shared with Successor",
+      "createdAt": "2026-10-20T10:00:00Z",
+      "updatedAt": "2026-10-31T16:00:00Z",
+      "approvedAt": "2026-10-31T15:00:00Z",
+      "sharedAt": "2026-10-31T16:00:00Z",
+      "aiGenerated": true,
+      "aiEngineUsed": "gemini-3.8-flash",
+      "handoverScore": 98,
+      "responsibilities": {
+        "title": "Core Responsibilities & Daily Routines",
+        "items": [
+          "Fleet dispatch across 18 dedicated contract trucks and 3PL line-haul routes",
+          "Negotiation and enforcement of freight rates with Gati Surface and BlueDart",
+          "FASTag corporate wallet replenishment, fuel card accounting, and GPS telematics auditing",
+          "Cold-chain temperature compliance and carrier SLA dispute settlement"
+        ],
+        "sources": [
+          "act-009",
+          "act-010",
+          "act-012",
+          "doc-002"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "completedProjects": {
+        "title": "Completed Operational Projects",
+        "items": [
+          "Locked in quarterly rate freeze at ₹4.80/kg with Gati Surface Logistics for Maharashtra and Gujarat lanes",
+          "Migrated corporate FASTag from ICICI to IDFC First Bank with automated balance auto-sweep",
+          "Negotiated 05:00 AM dedicated off-peak delivery slot with DMart Kalamboli Mega DC to eliminate 18-hour truck waiting queues"
+        ],
+        "sources": [
+          "act-010",
+          "act-011",
+          "act-012",
+          "doc-007"
+        ],
+        "evidenceLevel": "Verified by manager",
+        "managerApproved": true
+      },
+      "importantDecisions": {
+        "title": "Important Operational Decisions & Precedents",
+        "items": [
+          "Rerouted 4 refrigerated vans via Old Highway NH-48 during Khandala Ghat collision to protect perishable loads",
+          "Levied ₹48,000 consignment penalty against Reefer Truck #8 owner after encrypted USB logger proved driver shut down cooling generator overnight",
+          "Hotlisted fuel card #4412-HPCL via online portal immediately when driver fell ill with card in possession"
+        ],
+        "sources": [
+          "act-009",
+          "act-013",
+          "act-015"
+        ],
+        "evidenceLevel": "Verified by manager",
+        "managerApproved": true
+      },
+      "pendingTasks": {
+        "title": "Immediate Pending Tasks Transferred to Devanshi",
+        "items": [
+          "Enforce 05:00 AM arrival slot compliance at DMart and Reliance distribution centers daily",
+          "Verify weekly IDFC FASTag statement every Monday morning to prevent wallet starvation",
+          "Issue replacement HPCL fuel card for truck MH-04-FK-3315 once driver reports back from medical leave"
+        ],
+        "sources": [
+          "act-011",
+          "act-012",
+          "act-015"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "unresolvedProblems": {
+        "title": "Unresolved Problems & Operational Vulnerabilities",
+        "items": [
+          "Gati billing department frequently attempts to apply 14% diesel surcharge unless challenged with signed agreement",
+          "Trucks MH-04-FK-3310 and 3312 have recurring antenna harness vibration faults on Nashik mountain passes",
+          "Western Ghats winter fog causes severe early morning delays without pre-scheduled early night dispatch"
+        ],
+        "sources": [
+          "act-010",
+          "act-012",
+          "act-022",
+          "act-024"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "recurringOperationalIssues": {
+        "title": "Recurring Operational Issues",
+        "items": [
+          "Reefer truck drivers neglecting to check separate generator diesel fuel levels during highway stops",
+          "Retailer receiving bays claiming delayed arrival unless supported by FASTag electronic gate timestamps"
+        ],
+        "sources": [
+          "act-009",
+          "act-011",
+          "act-023"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "documentedSolutions": {
+        "title": "Documented Solutions & Workarounds",
+        "items": [
+          "Require drivers to top up reefer generator fuel at Kalamboli Indian Oil hub before starting Pune highway ascent",
+          "Use IDFC FASTag timestamp records as legally admissible evidence to counter retailer demurrage claims",
+          "Pre-stage night outbound loads by 21:30 PM to enable 22:30 PM departure ahead of ghat fog window"
+        ],
+        "sources": [
+          "act-009",
+          "act-023",
+          "act-024"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "importantContacts": {
+        "title": "Key External & Internal Contacts",
+        "items": [
+          "Baban Rao (Navi Mumbai Mathadi Labor Union Secretary) - Cell: 98191-XXXXX [Must notify before hiring outside loaders]",
+          "Inspector Kadam (NHAI Highway Patrol, Khopoli Sector) - WhatsApp: 98220-XXXXX [Emergency landslide traffic clearance]",
+          "Deshmukh (DMart Inward DC Manager, Kalamboli) - Direct: 022-2742-XXXX [Contact for 05:00 AM gate pass exceptions]",
+          "Gati Regional Billing Escalations - Email: west.commercial@gati.synthetic"
+        ],
+        "sources": [
+          "act-009",
+          "act-010",
+          "act-011",
+          "act-014"
+        ],
+        "evidenceLevel": "Verified by manager",
+        "managerApproved": true
+      },
+      "departmentalDependencies": {
+        "title": "Cross-Departmental Dependencies",
+        "items": [
+          "Warehouse Team (Rahul / Neha): Strict requirement that all reefer pallets must be stabilized at 3.8°C prior to loading",
+          "Modern Trade Sales (Rohan Mehta): Instant sharing of FASTag arrival logs whenever retail buyer complains of stock delay"
+        ],
+        "sources": [
+          "act-011",
+          "act-021",
+          "act-023"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "standardOperatingProcedures": {
+        "title": "Governing Standard Operating Procedures",
+        "items": [
+          "LOG-SOP-12: Cold-Chain Logistics Incident & Temperature Excursion Protocol",
+          "CTR-LOG-2026-44: Gati Surface Logistics Q4 Service Level Agreement & Rate Card"
+        ],
+        "sources": [
+          "doc-002",
+          "doc-007"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "relevantSupportingDocuments": {
+        "title": "Relevant Supporting Documents",
+        "items": [
+          "CTR-LOG-2026-44: Gati Rate Agreement and Fuel Adjustment Surcharge Cap Addendum"
+        ],
+        "sources": [
+          "doc-007"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "evidenceBasedWorkPatterns": {
+        "title": "Documented Professional Work Patterns",
+        "items": [
+          "Verifies reefer compressor run logs personally rather than relying on driver verbal statements",
+          "Maintains direct relationship with Mathadi union leaders to prevent surprise loading strikes",
+          "Reconciles transporter freight invoices line-by-line against agreed contract rate cards"
+        ],
+        "sources": [
+          "act-009",
+          "act-010",
+          "act-014"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "missingOrConflictingInformation": {
+        "title": "Detected Gaps, Uncertainties & Conflicting Records",
+        "items": [
+          "UNCERTAIN: Formal union agreement with Navi Mumbai Mathadi labor board is informal and renegotiated verbally every festive season.",
+          "RESOLVED CONFLICT: Gati billing dispute was resolved by presenting signed rate letter; Devanshi must archive copy for every quarterly audit."
+        ],
+        "sources": [
+          "act-014",
+          "act-022"
+        ],
+        "evidenceLevel": "Evidence-supported",
+        "managerApproved": true
+      },
+      "managerFinalRemarks": "Handover successfully completed and verified. Devanshi Joshi has assumed full operational control of route dispatches."
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud-mwaxd705-gjud",
+      "action": "Successor Assistant Query Executed",
+      "actorId": "emp-103",
+      "actorName": "Neha Patel",
+      "actorRole": "employee",
+      "targetId": "ho-101",
+      "targetName": "Rahul Sharma",
+      "details": "Query: \"Which operational problems occurred frequently?\" on handover for Rahul Sharma",
+      "timestamp": "2026-11-10T16:49:09.557Z",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "aud-mwaxcvyh-tnp3",
+      "action": "Successor Assistant Query Executed",
+      "actorId": "emp-103",
+      "actorName": "Neha Patel",
+      "actorRole": "employee",
+      "targetId": "ho-101",
+      "targetName": "Rahul Sharma",
+      "details": "Query: \"What are my predecessors pending tasks?\" on handover for Rahul Sharma",
+      "timestamp": "2026-11-10T16:48:55.241Z",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "aud-mwaxcjte-7muf",
+      "action": "Successor Assistant Query Executed",
+      "actorId": "emp-103",
+      "actorName": "Neha Patel",
+      "actorRole": "employee",
+      "targetId": "ho-101",
+      "targetName": "Rahul Sharma",
+      "details": "Query: \"What are my predecessors pending tasks?\" on handover for Rahul Sharma",
+      "timestamp": "2026-11-10T16:48:39.506Z",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "aud-001",
+      "action": "Handover Initiated",
+      "actorId": "emp-105",
+      "actorName": "Vikram Malhotra",
+      "actorRole": "manager",
+      "targetId": "emp-101",
+      "targetName": "Rahul Sharma",
+      "details": "Initiated knowledge handover workflow for outgoing Lead Specialist Rahul Sharma. Successor assigned: Neha Patel.",
+      "timestamp": "2026-11-05T09:00:00Z",
+      "ipAddress": "192.168.1.42"
+    },
+    {
+      "id": "aud-002",
+      "action": "AI Handover Synthesis Generated",
+      "actorId": "system",
+      "actorName": "WORKTRACE AI Engine (Gemini 3.8 Flash)",
+      "actorRole": "admin",
+      "targetId": "ho-101",
+      "targetName": "Rahul Sharma Handover Report",
+      "details": "Synthesized 8 daily activity logs, 3 SOPs, and 2 audit reports into 12 structured handover modules.",
+      "timestamp": "2026-11-05T09:02:15Z",
+      "ipAddress": "internal-service"
+    },
+    {
+      "id": "aud-003",
+      "action": "Daily Activity Submitted",
+      "actorId": "emp-101",
+      "actorName": "Rahul Sharma",
+      "actorRole": "employee",
+      "targetId": "act-001",
+      "targetName": "Cold Storage Unit C Temperature Spike Incident",
+      "details": "Submitted daily activity report with 7 structured answers and quarantine protocol documentation.",
+      "timestamp": "2026-11-09T08:45:00Z",
+      "ipAddress": "192.168.1.88"
+    },
+    {
+      "id": "aud-004",
+      "action": "Document Uploaded",
+      "actorId": "emp-101",
+      "actorName": "Rahul Sharma",
+      "actorRole": "employee",
+      "targetId": "doc-006",
+      "targetName": "Apex PolyPrint Packaging Quality Failure Root Cause Analysis",
+      "details": "Uploaded technical failure root cause document (DOCX, 850KB) with ECT testing evidence.",
+      "timestamp": "2026-11-04T14:20:00Z",
+      "ipAddress": "192.168.1.88"
+    },
+    {
+      "id": "aud-005",
+      "action": "Handover Approved",
+      "actorId": "emp-105",
+      "actorName": "Vikram Malhotra",
+      "actorRole": "manager",
+      "targetId": "ho-102",
+      "targetName": "Amit Verma Handover Report",
+      "details": "Approved final exit handover report for Amit Verma following 14-day shadowing period.",
+      "timestamp": "2026-10-31T15:00:00Z",
+      "ipAddress": "192.168.1.42"
+    },
+    {
+      "id": "aud-006",
+      "action": "Handover Shared with Successor",
+      "actorId": "emp-105",
+      "actorName": "Vikram Malhotra",
+      "actorRole": "manager",
+      "targetId": "ho-102",
+      "targetName": "Devanshi Joshi Access Grant",
+      "details": "Granted full read access and AI Successor Assistant access to Devanshi Joshi for Amit Verma's knowledge records.",
+      "timestamp": "2026-10-31T16:00:00Z",
+      "ipAddress": "192.168.1.42"
+    },
+    {
+      "id": "aud-007",
+      "action": "Security Permission Modified",
+      "actorId": "emp-106",
+      "actorName": "Ananya Sen",
+      "actorRole": "admin",
+      "targetId": "act-006",
+      "targetName": "Discrepancy in Pallet Shrinkage Reconciliation",
+      "details": "Updated permission classification to Management Confidential due to ongoing terminal audit.",
+      "timestamp": "2026-11-06T11:15:00Z",
+      "ipAddress": "192.168.1.10"
+    },
+    {
+      "id": "aud-008",
+      "action": "Successor Assistant Query Executed",
+      "actorId": "emp-104",
+      "actorName": "Devanshi Joshi",
+      "actorRole": "employee",
+      "targetId": "ho-102",
+      "targetName": "Gati freight rate agreement",
+      "details": "Successor queried: 'What did Amit negotiate with Gati Surface?' System returned evidence-backed clause from CTR-LOG-2026-44.",
+      "timestamp": "2026-11-07T10:14:00Z",
+      "ipAddress": "192.168.1.92"
+    }
+  ],
+  "insights": [
+    {
+      "id": "ins-001",
+      "category": "Operational Vulnerability",
+      "headline": "Single-Supplier Packaging Risk at Apex PolyPrint",
+      "description": "Repeated Edge Crush Test (ECT < 32 lbs/in) failures caused 68% of outer carton crush claims at retail modern trade stores. Reliance and Spencers issued ₹1.88L in debit notes during Q3.",
+      "supportingSourceRecords": [
+        {
+          "id": "act-003",
+          "title": "Apex PolyPrint Consignment Rejection",
+          "date": "2026-11-07"
+        },
+        {
+          "id": "doc-006",
+          "title": "Apex Packaging Failure RCA",
+          "date": "2026-11-04"
+        },
+        {
+          "id": "doc-010",
+          "title": "Packaging Damage Audit",
+          "date": "2026-10-31"
+        }
+      ],
+      "evidenceClassification": "Evidence-supported",
+      "confidenceScore": 96,
+      "impactLevel": "High",
+      "department": "Warehouse & Inventory",
+      "detectedAt": "2026-11-08"
+    },
+    {
+      "id": "ins-002",
+      "category": "Knowledge Gap & Informality",
+      "headline": "Uncontracted Critical Chiller Emergency Repair Workaround",
+      "description": "Warehouse cooling emergency support depends on unwritten personal arrangement with technician Sharmaji requiring ₹2,000 cash advance for Sunday night breakdowns. No corporate SLA exists.",
+      "supportingSourceRecords": [
+        {
+          "id": "act-001",
+          "title": "Cold Storage Unit C Temperature Spike",
+          "date": "2026-11-09"
+        },
+        {
+          "id": "act-007",
+          "title": "Handover Preparation: Master Contacts",
+          "date": "2026-11-03"
+        }
+      ],
+      "evidenceClassification": "Verified by manager",
+      "confidenceScore": 91,
+      "uncertaintyNotes": "Vendor rate card and formal corporate indemnification terms are missing from file.",
+      "impactLevel": "High",
+      "department": "Warehouse & Inventory",
+      "detectedAt": "2026-11-08"
+    },
+    {
+      "id": "ins-003",
+      "category": "Conflicting Records",
+      "headline": "Bay 4 Inventory Ledger vs Physical Bin Discrepancy",
+      "description": "Physical audit notes by Rahul Sharma (412 cartons) and Neha Patel (428 cartons) conflict directly with central SAP-ERP balance (430 cartons). Caused by un-scanned quality transfers to quarantine bin.",
+      "supportingSourceRecords": [
+        {
+          "id": "act-002",
+          "title": "Weekly Cycle Count",
+          "date": "2026-11-08"
+        },
+        {
+          "id": "act-019",
+          "title": "Disputed Counts in Bay 4",
+          "date": "2026-11-04"
+        },
+        {
+          "id": "doc-005",
+          "title": "Bhiwandi Shrinkage Audit",
+          "date": "2026-10-15"
+        }
+      ],
+      "evidenceClassification": "Conflicting",
+      "confidenceScore": 88,
+      "uncertaintyNotes": "Variance of 16-18 cartons remains unreconciled between virtual ERP batch and physical pallets.",
+      "impactLevel": "Medium",
+      "department": "Warehouse & Inventory",
+      "detectedAt": "2026-11-08"
+    },
+    {
+      "id": "ins-004",
+      "category": "Operational Dependency",
+      "headline": "Navi Mumbai Mathadi Labor Union Pre-Notification Requirement",
+      "description": "Hiring outside contract loaders during peak festive rushes without prior clearance from Mathadi Union Secretary Baban Rao historically led to dock wildcat blockades in Navi Mumbai hubs.",
+      "supportingSourceRecords": [
+        {
+          "id": "act-014",
+          "title": "Western Region 3PL Key Contacts Briefing",
+          "date": "2026-10-14"
+        },
+        {
+          "id": "ho-102",
+          "title": "Amit Verma Handover Report",
+          "date": "2026-10-31"
+        }
+      ],
+      "evidenceClassification": "Verified by manager",
+      "confidenceScore": 94,
+      "impactLevel": "High",
+      "department": "Logistics & Delivery",
+      "detectedAt": "2026-11-01"
+    },
+    {
+      "id": "ins-005",
+      "category": "Verified Best Practice",
+      "headline": "05:00 AM Dedicated Off-Peak DC Delivery Window",
+      "description": "Scheduling reefer arrivals at DMart Kalamboli and Reliance Mega DCs at 05:00 AM achieved a 96.4% on-time delivery metric and eliminated 18-hour truck detention penalties.",
+      "supportingSourceRecords": [
+        {
+          "id": "act-011",
+          "title": "DMart DC Unloading Escalation",
+          "date": "2026-10-25"
+        },
+        {
+          "id": "act-023",
+          "title": "DMart Thane SLA Review",
+          "date": "2026-11-05"
+        }
+      ],
+      "evidenceClassification": "Evidence-supported",
+      "confidenceScore": 98,
+      "impactLevel": "Medium",
+      "department": "Logistics & Delivery",
+      "detectedAt": "2026-11-06"
+    }
+  ]
+}

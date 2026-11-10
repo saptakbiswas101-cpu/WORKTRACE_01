@@ -1,0 +1,7 @@
+{
+  "name": "WORKTRACE — AI Knowledge & Handover Platform",
+  "description": "Enterprise AI-powered organisational knowledge management and employee handover platform preventing knowledge loss during employee turnover.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
